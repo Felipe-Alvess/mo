@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Flix</title>
+</head>
+
+<body>
+    <!-- titulo e pesquisa -->
+    <header class="titulo">
+        <h1>Movie Flix</h1>
+        <div class="media-social">
+            <a href=""><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-github'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-linkedin'></i></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></i></a>
+        </div>
+        <input type="search" placeholder="Pesquise seu filme" id="search">
+    </header>
+    <!-- titulo e pesquisa -->
+
+    <!-- Botão alterar tema -->
+    <div>
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+            <i class='bx bx-moon'></i>
+            <i class='bx bx-sun'></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    <!-- Botão alterar tema -->
+
+    <!-- slide de imagens -->
+    <section class="carrossel">
+        <div class="container" id="img">
+            <img src="./img/slide1.jpg" alt="Velozes e Furiosos 10">
+            <img src="./img/slide2.jpg" alt="Coringa">
+            <img src="./img/slide3.jpg" alt="A Fera">
+            <img src="./img/slide4.jpg" alt="Mogli">
+        </div>
+    </section>
+    <!-- slide de imagens -->
+
+    <!-- slide de imagens 500 px-->
+    <section class="carrossel2">
+        <div class="container2" id="imgg">
+            <img src="./img/slide11.jpg" alt="Velozes e Furiosos 10">
+            <img src="./img/slide22.jpg" alt="Coringa">
+            <img src="./img/slide33.jpg" alt="A Fera">
+            <img src="./img/slide44.jpg" alt="Mogli">
+        </div>
+    </section>
+
+    <!-- slide de imagens 500px -->
+
+    <!-- sessao de filmes -->
+
+    <section class="lista">
+        <i class='bx bx-menu' onclick="clickMenu()" id="menu"></i>
+        <ul id="items">
+            <li><a href="#" onclick="clickMenu()">Zona de Risco</a></li>
+            <li><a href="#" onclick="clickMenu()">A Sala dos Professores</a></li>
+            <li><a href="#" onclick="clickMenu()">Dias Perfeitos</a></li>
+            <li><a href="#" onclick="clickMenu()">Duna Parte 2</a></li>
+            <li><a href="#" onclick="clickMenu()">A Serva</a></li>
+            <li><a href="#" onclick="clickMenu()">Guerra de Ferro</a></li>
+            <li><a href="#" onclick="clickMenu()">Todos nos Desconhecidos</a></li>
+            <li><a href="#" onclick="clickMenu()">Imaginário: Brinquedo Diabólico</a></li>
+            <li><a href="#" onclick="clickMenu()">Ervas Secas</a></li>
+            <li><a href="#" onclick="clickMenu()">Desespero Profundo</a></li>
+            <li><a href="#" onclick="clickMenu()">Os Farofeiros 2</a></li>
+        </ul>
+    </section>
+
+    <section class="catalogo">
+        <ul>
+            <li><img src="./img/Filme 1.jpeg" alt="Avatar">Avatar<span><a href="#avatar">Clique para assistir</a></span>
+            </li>
+
+            <li><img src="./img/Filme 2.jpeg" alt="Os Vingadores">Os Vingadores</a><span><a href="#vingadores">Clique
+                        para assistir</a></span></li>
+
+            <li><img src="./img/Filme 3.jpeg" alt="Aquaman">Aquaman</a><span><a href="#aquaman">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 4.jpeg" alt="Megan">Megan</a><span><a href="#megan">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 5.jpeg" alt="Velozes e Furiosos">Velozes X</a><span><a href="#velozes">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 6.jpeg" alt="A Freira 2">A Freira 2</a><span><a href="#freira">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 7.jpeg" alt="Coringa">Coringa</a><span><a href="#coringa">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 8.jpeg" alt="A Fera">A Fera</a><span><a href="#fera">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 9.jpeg" alt="Troia">Tróia</a><span><a href="#troia">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 10.jpeg" alt="Transformers">Transformers</a><span><a href="#transformes">Clique
+                        para assistir</a></span></li>
+
+            <li><img src="./img/Filme 11.jpeg" alt="O Código da Vincci">O Código da Vincci</a><span><a
+                        href="#codigodavincci">Clique para assistir</a></span></li>
+
+            <li><img src="./img/Filme 12.jpeg" alt="Harry Potter">Harry Potter</a><span><a href="#harrypotter" >Clique
+                        para assistir</a></span></li>
+
+            <li><img src="./img/Filme 13.jpeg" alt="Venom">Venom</a><span><a href="#venom">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 14.jpeg" alt="Gladiador">Gladiador</a><span><a href="#gladiador">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 15.jpeg" alt="300">300</a><span><a href="#300">Clique para assistir</a></span>
+            </li>
+
+            <li><img src="./img/Filme 16.jpeg" alt="Sonic o Filme">Sonic </a><span><a href="#sonic">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 17.jpeg" alt="Fireball">Fireball</a><span><a href="#fireball">Clique para
+                        assistir</a></span></li>
+
+            <li><img src="./img/Filme 18.jpeg" alt="Gato de botas 2">Gato de Botas 2</a><span><a
+                        href="#gatodebotas">Clique para assistir</a></span></li>
+
+            <li><img src="./img/Filme 19.jpeg" alt="Quebrando regras">Quebrando Regras</a><span><a
+                        href="#quebrandoregras">Clique para assistir</a></span></li>
+
+            <li><img src="./img/Filme 20.jpeg" alt="Piratas do Caribe">Piratas do Caribe</a><span><a
+                        href="#piratas">Clique para assistir</a></span></li>
+
+        </ul>
+    </section>
+
+    <section class="filmes">
+        <ul>
+            <li id="avatar"><img src="./img/Filme 1.jpeg" alt="Avatar">
+                <video src="##" width="700px" height="340px" controls autoplay ></video>
+                <h2>Avatar 2</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="vingadores"><img src="./img/Filme 2.jpeg" alt="Vingadores">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Vingadores Ultimato</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                     
+                    <a href="##"  download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="aquaman"><img src="./img/Filme 3.jpeg" alt="Aquaman">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Aquaman</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="megan"><img src="./img/Filme 4.jpeg" alt="Megan">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Megan</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="velozes"><img src="./img/Filme 5.jpeg" alt="Velozes e Furiosos">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Velozes X</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="freira"><img src="./img/Filme 6.jpeg" alt="A Freira 2">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>A Freira 2</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="coringa"><img src="./img/Filme 7.jpeg" alt="Coringa">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Coringa</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="fera"><img src="./img/Filme 8.jpeg" alt="A Fera">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>A Fera</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="troia"><img src="./img/Filme 9.jpeg" alt="Tróia">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Tróia</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="transformes"><img src="./img/Filme 10.jpeg" alt="Transformers">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Transformers</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="codigodavincci"><img src="./img/Filme 11.jpeg" alt="O Codigo da Vincci">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>O Codigo da Vincci</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="harrypotter"><img src="./img/Filme 12.jpeg" alt="Harry Potter">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Harry Potter</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="venom"><img src="./img/Filme 13.jpeg" alt="Venom">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Venom</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="gladiador"><img src="./img/Filme 14.jpeg" alt="Gladiador">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>Gladiador</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+            <li id="300"><img src="./img/Filme 15.jpeg" alt="300">
+                <video src="##" controls autoplay width="700px" height="340px"></video>
+                <h2>300</h2>
+                <p>Dar seguimento ao fenómeno de Avatar,
+                    o filme com mais sucesso de bilheteira da história do cinema,
+                    não era uma tarefa invejável. Não necessariamente pela construção do mundo,
+                    porque aí havia muito a fazer,
+                    mas sobretudo pelo hercúleo desafio de igualar o sucesso comercial da película.
+                    Foi o próprio James Cameron, o realizador do antecessor,
+                    que pegou novamente nas armas e voltou a Pandora.
+                </p>
+                <div class="btn">
+                    <button><a href="##">Clique para Assistir</a></button>
+                    <a href="##" download="##">Download do Filme</a>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+    <!-- sessao de filmes -->
+</body>
+<script src="main.js"></script>
+
+</html>
