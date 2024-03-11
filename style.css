@@ -449,6 +449,8 @@ body.dark {
     height: 300px;
     border-radius: 10px;
     display: block;
+    text-align: center;
+    
     }
 
     .container2 {
@@ -459,18 +461,18 @@ body.dark {
 
     .container2 img {
         object-fit: cover;
-        width: 340px;
+        width: 100%;
         height: 300px;
     }
 
     .label{
         position: fixed;
-        left: 18rem;
-        top: 8.5rem;
+        left: 20rem;
+        top: 9rem;
     }
    
     .catalogo {
-        margin-top: -17rem;
+        margin-top: -22rem;
     }
 
     .catalogo a{
@@ -478,7 +480,7 @@ body.dark {
     }
    
     .filmes {
-    margin-top: 375rem;
+    margin-top: 360rem;
     width: 100%;
     }
 
@@ -487,12 +489,12 @@ body.dark {
     }
 
     .filmes video {
-        width: 300px;
+        width: 100%;
         left: 0;
         position: relative;
-        left: -1.6rem;
-        top: 0.5rem;
-        display: non e;
+        margin-top: 6rem;
+        display: flex;
+        text-align: center;
     }
     .filmes h2 {
         text-align: center;
@@ -502,7 +504,7 @@ body.dark {
         top: 5rem;
     }
    
-    .btn button {
+    .btn button{
         display: block;
         margin-top: 6rem;
         width: 100%;
