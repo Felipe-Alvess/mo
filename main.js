@@ -36,7 +36,7 @@ function carrossell() {
     if(idxx >  img.length - 1){
         idxx = 0
     }
-   imgss.style.transform = `translateX(${-idxx * 340}px)`
+   imgss.style.transform = `translateX(${-idxx * 380}px)`
 }
 
 setInterval(carrossell, 2000);
